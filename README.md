@@ -8,3 +8,6 @@ Las carpetas están divididas de la siguiente manera:
     - Subcarpetas con el nombre de cada módulo (Primeros Pasos, Operadoras, Strings, ...), dentro de cada carpeta irán los enunciados de los ejercicios, las correcciones de Brais y los ejercicios resueltos por mi.
 - Prácticas --> Subcarpetas por módulos y dentro las prácticas que iremos realizando en cada sesión del curso. 
 
+# Curso "Java y Programación Orientada a Objetos (POO) desde cero"
+
+El contenido de este repositorio es la inclusión de los apuntes, ejercicios y prácticas realizadas durante el curso de @mouredevpro
