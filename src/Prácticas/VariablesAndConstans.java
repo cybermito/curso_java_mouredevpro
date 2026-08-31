@@ -1,4 +1,4 @@
-/*
+package Prácticas;/*
 * Clase sobre variables y constantes, definición de estas y uso
 * */
 

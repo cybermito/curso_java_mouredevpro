@@ -1,3 +1,5 @@
+package Prácticas;
+
 public class Strings {
     public static void main(String[] args){
         //Cadenas de texto, definición

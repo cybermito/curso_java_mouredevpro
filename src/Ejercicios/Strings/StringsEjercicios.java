@@ -1,3 +1,5 @@
+package Ejercicios.Strings;
+
 public class StringsEjercicios {
     public static void main(String[] args){
         String name = "Antonio";

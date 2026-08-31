@@ -1,3 +1,5 @@
+package Ejercicios.Condicionales;
+
 public class ConditionalsCorrections {
 
     public static void main(String[] args) {

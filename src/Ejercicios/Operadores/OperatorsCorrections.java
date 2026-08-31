@@ -1,3 +1,5 @@
+package Ejercicios.Operadores;
+
 public class OperatorsCorrections {
 
     public static void main(String[] args) {

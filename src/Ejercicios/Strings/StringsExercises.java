@@ -1,3 +1,5 @@
+package Ejercicios.Strings;
+
 public class StringsExercises {
 
     public static void main(String[] args) {

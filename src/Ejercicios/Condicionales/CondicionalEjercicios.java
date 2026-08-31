@@ -1,3 +1,5 @@
+package Ejercicios.Condicionales;
+
 public class CondicionalEjercicios {
     static void main(String[] args) {
         // 1. Establece la edad de un usuario y muestra si puede votar (mayor o igual a
@@ -13,7 +15,7 @@ public class CondicionalEjercicios {
 
         // 2. Declara dos números y muestra cuál es mayor, o si son iguales.
 
-        int number01 = -20;
+        int number01 = 101;
         int number02 = 20;
 
         if (number01 == number02) {
@@ -43,8 +45,44 @@ public class CondicionalEjercicios {
 
         // 5. Verifica si un número está en el rango de 1 a 100.
 
+        if (number01 >= 1 && number01 <=100){
+            System.out.println(String.format("number01: %d está dentro del " +
+                    "rango 1 - 100", number01));
+        } else {
+            System.out.println(String.format("number01: %d no está dentro del" +
+                    " " +
+                    "rango 1 - 100", number01));
+        }
+
         // 6. Declara una variable con el día de la semana (1-7) y muestra su nombre con
         // switch.
+        var day = 5;
+
+        switch (day){
+            case 1:
+                System.out.println("Lunes");
+                break;
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Miércoles");
+                break;
+            case 4:
+                System.out.println("Jueves");
+                break;
+            case 5:
+                System.out.println("Viernes");
+                break;
+            case 6:
+                System.out.println("Sábado");
+                break;
+            case 7:
+                System.out.println("Domingo");
+                break;
+            default:
+                System.out.println("No es un día de la semana.");
+        }
 
         // 7. Simula un sistema de notas: muestra "Sobresaliente", "Aprobado" o
         // "Suspenso" según la nota (0-100).
