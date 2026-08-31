@@ -6,13 +6,51 @@ El contenido de este repositorio es la inclusión de los apuntes, ejercicios y p
 
 ## Notas
 
-Las carpetas están divididas de la siguiente manera:
+La estructura del curso la he realizado mediante la creación inicial de un 
+proyecto Java llamado "Java y Programación Orientada a Objetos desde Cero".
 
-- Materiales --> Guardado de los materiales anexos al curso, como los ejemplos que va indicando Brais en cada clase.
-    - Ejemplos --> Ejemplos creados durante cada sesión
-- Ejercicios --> Organizado en carpetas por módulo y donde guardaré los enunciados de los ejercicios propuestos.
-    - Subcarpetas con el nombre de cada módulo (Primeros Pasos, Operadoras, Strings, ...), dentro de cada carpeta irán los enunciados de los ejercicios, las correcciones de Brais y los ejercicios resueltos por mi.
-- Prácticas --> Carpeta donde voy guardando las prácticas que se hacen en cada clase.
+IntelliJ Idea crea toda la estructura inicial de un proyecto con las 
+siguientes carpetas:
+
+- .idea
+- src
+
+y los archivos .gitignore y 'Java y Programación Orientada a Objetos desde 
+Cero.iml'
+
+Dentro de src para poder seguir estructurando el curso en carpetas y que no 
+se líe parda como la primera vez, voy creando packages para cada uno de los 
+temas / módulos del curso. Con la siguiente estructura (recordar cada 
+carpeta es un package dentro de src).
+
+- src
+  - Ejemplos (Son los archivos descargables de cada clase, los que crea Brais.)
+    - Condicionales
+      - Archivos .java, creados como class (new - Java Class)
+    - Operadores
+      - Archivos .java, creados como class (new - Java Class)
+    - ...
+  - Prácticas (Son las prácticas que voy realizando en cada clase)
+    - Condicionales
+      - Archivos .java
+    - Operadores
+      - Archivos .java
+    - ...
+  - Ejercicios (Son los ejercicios que pide Brais que hagamos de cada módulo 
+    / clase)
+    - Condicionales
+      - Archivos .java con los enunciados de los ejercicios
+      - Archivos .java con la solución de Brais
+      - Archivos .java con mi solución
+    - Operadores
+      - Archivos .java con los enunciados de los ejercicios
+      - Archivos .java con la solución de Brais
+      - Archivos .java con mi solución
+    - ...
+
+- Materiales --> Recursos adicionales que Brais va indicando, como links, 
+  pdfs, etc. Esta carpeta la subdivido también en módulos / clases si 
+  hiciera falta. Es una carpeta normal New - carpeta.
 
 ## Indice del curso
 
