@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Condicionales/ConditionalEjercicios/ConditionalEjercicios.iml" filepath="$PROJECT_DIR$/Ejercicios/Condicionales/ConditionalEjercicios/ConditionalEjercicios.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Ejercicios.iml" filepath="$PROJECT_DIR$/Ejercicios/Ejercicios.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Primeros Pasos/EjerciciosPrincipiantes/EjerciciosPrincipiantes.iml" filepath="$PROJECT_DIR$/Ejercicios/Primeros Pasos/EjerciciosPrincipiantes/EjerciciosPrincipiantes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Primeros Pasos/HelloWorldEjercicios/HelloWorldEjercicios.iml" filepath="$PROJECT_DIR$/Ejercicios/Primeros Pasos/HelloWorldEjercicios/HelloWorldEjercicios.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java y Programación Orientada a Objetos desde cero.iml" filepath="$PROJECT_DIR$/.idea/Java y Programación Orientada a Objetos desde cero.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Materiales/Materiales.iml" filepath="$PROJECT_DIR$/Materiales/Materiales.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Operadores/Operadores.iml" filepath="$PROJECT_DIR$/Ejercicios/Operadores/Operadores.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Operadores/OperatorsEjercicios/OperatorsEjercicios.iml" filepath="$PROJECT_DIR$/Ejercicios/Operadores/OperatorsEjercicios/OperatorsEjercicios.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Primeros Pasos/Primeros Pasos.iml" filepath="$PROJECT_DIR$/Ejercicios/Primeros Pasos/Primeros Pasos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Prácticas/Prácticas.iml" filepath="$PROJECT_DIR$/Prácticas/Prácticas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercicios/StringsEjercicios/StringsEjercicios.iml" filepath="$PROJECT_DIR$/Ejercicios/StringsEjercicios/StringsEjercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java y Programacion Orientada a Objetos desde Cero.iml" filepath="$PROJECT_DIR$/Java y Programacion Orientada a Objetos desde Cero.iml" />
     </modules>
   </component>
 </project>
