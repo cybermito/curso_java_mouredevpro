@@ -43,7 +43,7 @@ public class HelloWorldEjercicios {
         /*
         * Hay varios System.XXX.println()
         * */
-        System.out.println("usando el método .out"); //Salida estandar
+        System.out.println("usando el método .out"); //Salida estándar
         System.err.println("usando el método .err"); //Salida colorida, como si fuera un error
         // System.in.read(); este da error y no soporta println
 
