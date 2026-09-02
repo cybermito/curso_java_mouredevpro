@@ -81,17 +81,112 @@ public class CondicionalEjercicios {
                 System.out.println("Domingo");
                 break;
             default:
-                System.out.println("No es un día de la semana.");
+                System.out.println("Número de día incorrecto, debe ser del 1 al 7");
         }
 
         // 7. Simula un sistema de notas: muestra "Sobresaliente", "Aprobado" o
         // "Suspenso" según la nota (0-100).
 
+        // Corrección no tengo en cuenta números negativos, por debajo de cero debe
+        // ser inválido.
+        /*
+        var grade = 95;
+
+        if (grade <= 49){
+            System.out.println(String.format("Tu nota es %d, estás suspenso.",
+                    grade));
+        } else if (grade >= 50 && grade <= 90){
+            System.out.println(String.format("Tu nota es %d, estás aprobado.",
+                    grade));
+        } else {
+            System.out.println(String.format("Tu nota es %d, Sobresaliente.",
+                    grade));
+        }
+
+         */
+        var grade = 95;
+
+        if (grade >=0 && grade <= 49){
+            System.out.println(String.format("Tu nota es %d, estás suspenso.",
+                    grade));
+        } else if (grade >= 50 && grade <= 90){
+            System.out.println(String.format("Tu nota es %d, estás aprobado.",
+                    grade));
+        } else if (grade > 90 && grade <= 100){
+            System.out.println(String.format("Tu nota es %d, Sobresaliente.",
+                    grade));
+        } else {
+            System.out.println("Nota no válida. Tienen que estar entre 0 y 100");
+        }
+
         // 8. Escribe un programa que determine si puedes entrar al cine: debes tener al
         // menos 15 años o ir acompañado.
 
+        boolean isAccompanied = true;
+        age = 15;
+
+        if (age >= 15){
+            System.out.println("Puedes entrar, tienes la edad mínima de 15");
+        } else if (age < 15 && isAccompanied){
+            System.out.println("Puedes entrar con un/a acompañante");
+        } else {
+            System.out.println("No puedes entrar si no tienes 15 años o vas " +
+                    "acompañado/a");
+        }
+
+        // Correción de Brais
+        /*
+        int cinemaAge = 12;
+        boolean isAccompanied = true;
+        System.out.println("Edad: " + cinemaAge + " años");
+        System.out.println("¿Va acompañado? " + isAccompanied);
+
+        if (cinemaAge >= 15 || isAccompanied) {
+            System.out.println("Puede entrar al cine");
+        } else {
+            System.out.println("NO puede entrar al cine");
+        }
+        * */
+
+
         // 9. Crea un programa que diga si una letra es vocal o consonante.
+        String vocals = "aeiou";
+        char letter = 'x';
+        // La clase Character, contiene un método .toString que convierte un char en un String.
+        String vocalToString = Character.toString(letter);
+
+        if (vocals.contains(vocalToString)){
+            System.out.println("La letra es una vocal");
+        } else {
+            System.out.println("La letra es una consonante");
+        }
+
+
 
         // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
+
+        var a = 2;
+        var b = 3;
+        var c = 3;
+
+        if (a > b){
+            if (a > c){
+                System.out.println("a es mayor");
+            }
+        } else if (b > c){
+            System.out.println("b es mayor");
+        } else {
+            System.out.println("c es mayor");
+        }
+
+        /* Corrección de Brais
+
+        if (a >= b && a >= c) {
+            System.out.println("El mayor es 'a' con valor: " + a);
+        } else if (b >= a && b >= c) {
+            System.out.println("El mayor es 'b' con valor: " + b);
+        } else {
+            System.out.println("El mayor es 'c' con valor: " + c);
+        }*/
     }
 }

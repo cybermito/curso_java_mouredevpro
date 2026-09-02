@@ -1,4 +1,4 @@
-package Prácticas;
+package Practicas;
 
 public class DataTypes {
 

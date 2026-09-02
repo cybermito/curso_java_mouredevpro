@@ -1,4 +1,4 @@
-package Prácticas;//Comentarios, se escriben con estos símbolos para una sola línea
+package Practicas;//Comentarios, se escriben con estos símbolos para una sola línea
 /* Y entre estos símbolos para crear
 * un comentarío de varias líneas
 *

@@ -30,7 +30,7 @@ carpeta es un package dentro de src).
     - Operadores
       - Archivos .java, creados como class (new - Java Class)
     - ...
-  - Prácticas (Son las prácticas que voy realizando en cada clase)
+  - Practicas (Son las prácticas que voy realizando en cada clase)
     - Condicionales
       - Archivos .java
     - Operadores
