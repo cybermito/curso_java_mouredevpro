@@ -1,6 +1,6 @@
-package Practicas;
+package Practicas.Estructuras;
 
-public class Estructuras {
+public class Arrays {
 
     static void main(String[] args){
         // Declaración / Creación de Arrays
