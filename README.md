@@ -15,7 +15,7 @@ siguientes carpetas:
 - .idea
 - src
 
-y los archivos .gitignore y 'Java y Programación Orientada a Objetos desde 
+y los archivos `.gitignore` y 'Java y Programación Orientada a Objetos desde 
 Cero.iml'
 
 Dentro de src para poder seguir estructurando el curso en carpetas y que no 
