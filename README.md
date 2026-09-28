@@ -51,6 +51,8 @@ carpeta es un package dentro de src).
 - Materiales --> Recursos adicionales que Brais va indicando, como links, 
   pdfs, etc. Esta carpeta la subdivido también en módulos / clases si 
   hiciera falta. Es una carpeta normal New - carpeta.
+  
+- Apuntes --> Esa carpeta es donde guardo los apuntes que voy tomando del curso
 
 ## Indice del curso
 
