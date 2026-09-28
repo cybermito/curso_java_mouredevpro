@@ -103,6 +103,22 @@ public class Bucles {
             index++;
         } while (index < 0);
 
+        // Control de bucles con break y continue
+
+        for (String name : names){
+            if (name.equals("Mesa")){
+                break; // Detiene el bucle completamente
+            }
+            System.out.println(name);
+        }
+
+        for (int i = 0; i < 5; i++){
+            if (i == 3){
+                continue; // Se salta el ciclo y no imprime el 3
+            }
+            System.out.println(i);
+        }
+
 
     }
 }
