@@ -126,13 +126,13 @@ public class BuclesEjercicios {
             break;
         }
 
-        // 10. Crea un programa que calcule el factorial de un número dado.
+        // 10. Crea un programa que calcule el calculateFactorial de un número dado.
         // Scanner nos sirve para poder solicitar datos de entrada de usuario
         Scanner scanner = new Scanner(System.in); // Inicializamos la librería
         int number = 0;
         long factorial = 1; // Hay que tener cuidado de no meter números grandes
         // por encima de 20
-        System.out.println("Calculadora del factorial de un número\n");
+        System.out.println("Calculadora del calculateFactorial de un número\n");
         System.out.println("Introduce un número entre el 1 y el 20: ");
         number = scanner.nextInt();
 
@@ -142,9 +142,9 @@ public class BuclesEjercicios {
         }
 
         if (number < 0){
-            System.out.println("Solo se puede calcular el factorial de números positivos");
+            System.out.println("Solo se puede calcular el calculateFactorial de números positivos");
         } else {
-            System.out.println("El factorial de " + number + " es " + factorial);
+            System.out.println("El calculateFactorial de " + number + " es " + factorial);
         }
 
     }

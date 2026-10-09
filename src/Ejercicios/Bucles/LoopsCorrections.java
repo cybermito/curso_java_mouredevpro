@@ -104,15 +104,15 @@ public class LoopsCorrections {
             }
         }
 
-        // 10. Crea un programa que calcule el factorial de un número dado.
+        // 10. Crea un programa que calcule el calculateFactorial de un número dado.
         int numberForFactorial = 5;
         long factorial = 1;
 
-        System.out.println("Calculando el factorial de " + numberForFactorial + ":");
+        System.out.println("Calculando el calculateFactorial de " + numberForFactorial + ":");
         for (int i = 1; i <= numberForFactorial; i++) {
             factorial *= i;
             System.out.println(i + "! = " + factorial);
         }
-        System.out.println("El factorial de " + numberForFactorial + " es: " + factorial);
+        System.out.println("El calculateFactorial de " + numberForFactorial + " es: " + factorial);
     }
 }

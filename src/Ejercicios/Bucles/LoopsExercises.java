@@ -21,6 +21,6 @@ public class LoopsExercises {
         // 9. Usa break para detener un bucle cuando encuentres un número negativo en un
         // array.
 
-        // 10. Crea un programa que calcule el factorial de un número dado.
+        // 10. Crea un programa que calcule el calculateFactorial de un número dado.
     }
 }
